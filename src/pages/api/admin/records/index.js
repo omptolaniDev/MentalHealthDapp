@@ -1,6 +1,6 @@
 // /pages/api/admin/records/index.js (GET all records)
 import dbConnect from "../../../../lib/db";
-import Record from "../../../../models/Record";
+import Record from "../../../../models/record";
 
 export default async function handler(req, res) {
   await dbConnect();

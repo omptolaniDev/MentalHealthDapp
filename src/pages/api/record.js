@@ -1,5 +1,5 @@
 import dbConnect from "../../lib/db";
-import Record from "../../models/record";
+import Record from "../../models/Record";
 
 export default async function handler(req, res) {
   await dbConnect();
